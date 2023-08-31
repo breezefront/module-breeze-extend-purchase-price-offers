@@ -1,0 +1,19 @@
+{
+    "name": "swissup/module-breeze-extend-purchase-price-offers",
+    "description": "Extend PurchasePriceOffers integration with Breeze Frontend",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "swissup/module-breeze": "^2.8.5",
+        "swissup/module-breeze-extend-warranty": "^1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Swissup\\BreezeExtendPurchasePriceOffers\\": ""
+        }
+    }
+}
